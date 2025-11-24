@@ -43,4 +43,4 @@ try:
     windspeed = data['current']['wind_mph']
     print(f'The windspeed is {windspeed} miles per hour')
 except:
-   print('The country {city} doesn\'t exist')
+   print(f'The city ({city}) doesn\'t exist')
